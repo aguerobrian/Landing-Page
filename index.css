@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 2000vh;
+}
+
+.cuad{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(46, 148, 153, 0.5);
+    position: relative;
+    position: fixed;
+   
+}
+
+.logo{
+    margin-left:  15px;
+    display: flex;
+    height: 100%;
+    
+}
+
+.navegacion{
+
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+}
+
+
+.navegacion li{
+    margin: 5px;
+    font-size: 1.2em;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: rgb(63, 63, 71);
+}
+
+.navegacion a:hover{
+    color:rgb(69, 104, 219);
+    cursor: pointer;
+}
+
+
+.cuadrado{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(206, 222, 235);
+}
+
+/*  *****Prueba de transparencia*****  */
+
+.cuadrado h1{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
